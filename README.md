@@ -1,4 +1,4 @@
-Cloned and redesigned nessExpress Page, its a logistics site
+Cloned and redesigned the nessExpress Page, it's a logistics site
 
 core Tech:
 HTML5
