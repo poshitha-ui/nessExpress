@@ -4,7 +4,9 @@
     margin: 0;
     padding: 0;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 /* ================== Header ================== */
 .header-wrapper {
     transition: 0.2s linear;
@@ -377,10 +379,14 @@ background-size: cover;
 
     .fa.fa-bars {
         font-size: 32px;
-        color: #254f99;
+        color: #fff;
     }
 
-    .header-wrapper {
+    .fixed-header .fa.fa-bars {
+        color:#2c1507;
+    }
+
+    .header-wrapper.fixed-header {
         background-color: #fff;
     }
 
@@ -404,5 +410,8 @@ background-size: cover;
 
     .card-container .card {
         margin: auto 0.5rem;
+    }
+    .header-wrapper ul li a{
+        color: #2a0d01;
     }
 }
